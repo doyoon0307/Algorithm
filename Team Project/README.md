@@ -1,10 +1,10 @@
 # Algorithm Team project
 
-< Detailed description of the design and the requirements >
+## < Detailed description of the design and the requirements >
 
-Minimum requirements: Tour period, hotel, transportation, sites(cities), price
+**Minimum requirements** : Tour period, hotel, transportation, sites(cities), price
 
-Needed information:
+**Needed information**:
     100 sites (cities) w/ each site’s tour time
     100 hotels per each sites w/ resonable prices,
     300 transportation among sites w/ resonable prices (assume direct transportation)
@@ -22,16 +22,14 @@ Needed information:
 
 
 
-▶ Minimum requirements of an Input and Output
+▶ **Minimum requirements of an Input and Output**
     Input: id, budget, destination, period, budget, etc.
     Output: id, itinerary (timed information of hotels, transportations, sites, dates, price)
     
-▶ Minimum requirement for the data structures
+▶ **Minimum requirement for the data structures**
     - A graph for sites layout that shows direct access (100 sites w/ 300 direct routes among them, both random generation).
     The graph consists of edges with distances (thus, travel time and cost to travel each edge).
-    
     - A RB tree to store hotel information: each site linked to the root of the hotel tree. (each site w/ 100 hotels).
-    
     - A RB tree to store reservation info (a key is the customer id).
     
     
