@@ -34,10 +34,7 @@
     - A RB tree to store hotel information: each site linked to the root of the hotel tree. (each site w/ 100 hotels).
     - A RB tree to store reservation info (a key is the customer id).
     
-    
-
-
-
+   
 ▶ extra considerations: hotel to site distance, local sites general preferences, transportation levels (prestige class, business class, economy class), time needed to tour each site, anything that is needed in a practical tour reservation system.
 
 ▶ Some of the values above shown can be generated randomly.
