@@ -27,12 +27,12 @@ Needed information:
     Output: id, itinerary (timed information of hotels, transportations, sites, dates, price)
     
 ▶ Minimum requirement for the data structures
-    A graph for sites layout that shows direct access (100 sites w/ 300 direct routes among them, both random generation).
+    - A graph for sites layout that shows direct access (100 sites w/ 300 direct routes among them, both random generation).
     The graph consists of edges with distances (thus, travel time and cost to travel each edge).
     
-    A RB tree to store hotel information: each site linked to the root of the hotel tree. (each site w/ 100 hotels).
+    - A RB tree to store hotel information: each site linked to the root of the hotel tree. (each site w/ 100 hotels).
     
-    A RB tree to store reservation info (a key is the customer id).
+    - A RB tree to store reservation info (a key is the customer id).
     
     
 
