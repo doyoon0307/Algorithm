@@ -36,6 +36,8 @@
     
     
 
+
+
 ▶ extra considerations: hotel to site distance, local sites general preferences, transportation levels (prestige class, business class, economy class), time needed to tour each site, anything that is needed in a practical tour reservation system.
 
 ▶ Some of the values above shown can be generated randomly.
